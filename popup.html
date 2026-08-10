@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="popup">
+      <div class="header">
+        <span class="mark">⨯</span>
+        <span class="title">GitGrab</span>
+      </div>
+      <div class="row">
+        <span class="label">Enable on GitHub</span>
+        <label class="switch">
+          <input type="checkbox" id="toggle" />
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="row">
+        <span class="label">Include timestamps</span>
+        <label class="switch">
+          <input type="checkbox" id="toggleTimestamps" />
+          <span class="slider"></span>
+        </label>
+      </div>
+      <p class="hint">
+        Adds a Copy log button to expanded GitHub Actions check steps, and a
+        Copy Dependabot alerts button (as Markdown) on the Dependabot alerts
+        page. Timestamps are off by default.
+      </p>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

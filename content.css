@@ -1,0 +1,76 @@
+.gha-copy-btn {
+  margin-left: 10px;
+  padding: 4px 12px;
+  font-family: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  background: #000;
+  border: 1px solid #3a3a3a;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.gha-copy-btn:hover {
+  background: #1a1a1a;
+  border-color: #ffffff;
+}
+
+.gha-copy-btn:active {
+  background: #2a2a2a;
+}
+
+.gha-copy-btn--done {
+  background: #ffffff;
+  color: #000000;
+  border-color: #ffffff;
+}
+
+.gha-copy-btn--fail {
+  background: #000000;
+  color: #ff5c5c;
+  border-color: #ff5c5c;
+}
+
+.gha-dependabot-copy-btn {
+  margin-right: 10px;
+  padding: 4px 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #c9d1d9;
+  background: #21262d;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.gha-dependabot-copy-btn:hover {
+  background: #30363d;
+  border-color: #8b949e;
+}
+
+.gha-dependabot-copy-btn:active {
+  background: #161b22;
+}
+
+.gha-dependabot-copy-btn--done {
+  background: #238636;
+  border-color: #2ea043;
+  color: #ffffff;
+}
+
+.gha-dependabot-copy-btn--fail {
+  background: #000000;
+  color: #ff5c5c;
+  border-color: #ff5c5c;
+}
